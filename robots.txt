@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://local-web-co-site.red-truth-5176.workers.dev/sitemap.xml

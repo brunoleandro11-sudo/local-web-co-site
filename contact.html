@@ -3,22 +3,27 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact — Local Web Co</title>
-<meta name="description" content="Tell us about your business and what you'd like your website to do. We'll get back to you with next steps.">
+<title>Contact - Local Web Co</title>
+<meta name="description" content="Tell us about your business and what you'd like your website to do. We'll get back to you with next steps, usually within one working day.">
+<link rel="canonical" href="https://local-web-co-site.red-truth-5176.workers.dev/contact.html">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <header class="site-header">
   <div class="wrap">
-    <a href="index.html" class="logo">LOCAL WEB CO <span>EST. LONDON</span></a>
+    <a href="index.html" class="logo" aria-label="Local Web Co home">
+      <svg class="logo-mark" viewBox="0 0 132 92" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs><linearGradient id="lwg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8FCBF7"/><stop offset="100%" stop-color="#1F6FC7"/></linearGradient></defs><path d="M14 8 L14 72 L52 72" fill="none" stroke="#EEF2F6" stroke-width="9" stroke-linecap="square"/><path d="M46 30 L60 72 L80 34 L100 72 L118 24" fill="none" stroke="url(#lwg)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span class="logo-text">LOCAL WEB CO<small>WEBSITES THAT GROW BUSINESSES</small></span>
+    </a>
     <nav class="main-nav" id="main-nav">
       <a href="index.html">Home</a>
       <a href="services.html">Services</a>
+      <a href="reviews.html">Reviews</a>
       <a href="about.html">About</a>
       <a href="contact.html" class="btn btn-primary">Get a quote</a>
     </nav>
-    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
   </div>
 </header>
 
@@ -26,7 +31,7 @@
   <div class="wrap">
     <p class="eyebrow on-dark">Get in touch</p>
     <h1>Tell us what you'd like.</h1>
-    <p>A few details about your business and what you're after — we'll get back to you with next steps.</p>
+    <p>A few details about your business and what you're after &mdash; we'll get back to you with next steps.</p>
   </div>
 </section>
 
@@ -35,22 +40,12 @@
     <div class="contact-layout">
       <div class="contact-info-card">
         <h3>Local Web Co</h3>
-        <p>Websites for local UK trades and small businesses — built properly, looked after monthly.</p>
-
-        <div class="contact-detail">
-          <span class="k">Email</span>
-          <span class="v"><a href="mailto:hello@local-web-co.com">hello@local-web-co.com</a></span>
-        </div>
-        <div class="contact-detail">
-          <span class="k">Based in</span>
-          <span class="v">London, United Kingdom</span>
-        </div>
-        <div class="contact-detail">
-          <span class="k">Response time</span>
-          <span class="v">Usually within one working day</span>
-        </div>
+        <p>Websites for local UK trades and small businesses &mdash; built properly, looked after monthly.</p>
+        <div class="contact-detail"><span class="k">Email</span><span class="v"><a href="mailto:hello@local-web-co.com">hello@local-web-co.com</a></span></div>
+        <div class="contact-detail"><span class="k">Based in</span><span class="v">London, United Kingdom</span></div>
+        <div class="contact-detail"><span class="k">Response time</span><span class="v">Usually within one working day</span></div>
+        <div class="contact-detail" style="margin-bottom:0;"><span class="k">Pricing</span><span class="v">&pound;999 setup &middot; &pound;219/month</span></div>
       </div>
-
       <div class="form-card">
         <form id="contact-form" novalidate>
           <div class="field">
@@ -69,8 +64,8 @@
             <label for="message">Tell us what you'd like</label>
             <textarea id="message" name="message" required placeholder="What does your business do, and what would you like your website to do for you?"></textarea>
           </div>
-          <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">Send message</button>
-          <p id="form-status" class="form-status" role="status"></p>
+          <button type="submit" class="btn btn-primary" style="width:100%;">Send message</button>
+          <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
         </form>
       </div>
     </div>
@@ -81,24 +76,22 @@
   <div class="wrap">
     <div class="footer-grid">
       <div class="footer-col">
-        <a href="index.html" class="logo">LOCAL WEB CO</a>
-        <p style="margin-top:10px; max-width:32ch;">Websites for local UK trades and small businesses.</p>
+        <a href="index.html" class="logo"><svg class="logo-mark" viewBox="0 0 132 92" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs><linearGradient id="lwgf" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8FCBF7"/><stop offset="100%" stop-color="#1F6FC7"/></linearGradient></defs><path d="M14 8 L14 72 L52 72" fill="none" stroke="#EEF2F6" stroke-width="9" stroke-linecap="square"/><path d="M46 30 L60 72 L80 34 L100 72 L118 24" fill="none" stroke="url(#lwgf)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="logo-text">LOCAL WEB CO</span></a>
+        <p>Websites for local UK trades and small businesses &mdash; built properly, looked after monthly.</p>
       </div>
       <div class="footer-col">
         <h5>Site</h5>
-        <a href="index.html">Home</a>
-        <a href="services.html">Services</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
+        <a href="index.html">Home</a><a href="services.html">Services</a><a href="reviews.html">Reviews</a><a href="about.html">About</a><a href="contact.html">Contact</a>
       </div>
       <div class="footer-col">
         <h5>Contact</h5>
         <a href="mailto:hello@local-web-co.com">hello@local-web-co.com</a>
+        <p style="margin-top:10px;">London, United Kingdom</p>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2026 Local Web Co.</span>
-      <span>London, UK</span>
+      <span>&copy; 2026 Local Web Co.</span>
+      <span>Websites that grow businesses.</span>
     </div>
   </div>
 </footer>

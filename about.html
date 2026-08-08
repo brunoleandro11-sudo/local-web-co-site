@@ -7,6 +7,12 @@
 <meta name="description" content="Local Web Co builds websites for the businesses that keep the country running - electricians, plumbers, salons, cafes. Fast turnaround, modern design, ongoing care once you're live.">
 <link rel="canonical" href="https://local-web-co-site.red-truth-5176.workers.dev/about.html">
 <link rel="stylesheet" href="styles.css">
+<style>
+  .about-photo { padding: 0; background: var(--ink); }
+  .about-photo img { width: 100%; height: auto; display: block; }
+  .about-photo .wrap { padding-top: 0; padding-bottom: 0; }
+  @media (min-width: 900px) { .about-photo img { max-height: 460px; object-fit: cover; object-position: center 40%; } }
+</style>
 </head>
 <body>
 
@@ -27,13 +33,19 @@
   </div>
 </header>
 
-<section class="page-hero">
+<section class="page-hero" style="border-bottom:none;">
   <div class="wrap">
     <p class="eyebrow on-dark">About</p>
     <h1>Websites for the businesses that keep things running.</h1>
     <p>Not e-commerce empires. Not tech startups. Electricians, plumbers, salons, caf&eacute;s &mdash; the businesses your street actually depends on.</p>
   </div>
 </section>
+
+<div class="about-photo">
+  <div class="wrap">
+    <img src="assets/office.png" alt="Local Web Co studio - designers and developers building websites" width="1536" height="1024">
+  </div>
+</div>
 
 <section>
   <div class="wrap">

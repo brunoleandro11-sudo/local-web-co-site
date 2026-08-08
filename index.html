@@ -10,10 +10,14 @@
 <meta property="og:type" content="website">
 <link rel="stylesheet" href="styles.css">
 <style>
-  .hero-banner { padding: 0 0 88px; background: var(--ink); }
+  .hero-single .wrap { grid-template-columns: 1fr; padding-top: 62px; padding-bottom: 36px; gap: 0; }
+  .hero-single .lead { max-width: 58ch; margin-bottom: 28px; }
+  .hero-banner { padding: 0 0 76px; background: var(--ink); }
   .hero-banner img { width: 100%; height: auto; border-radius: 8px; border: 1px solid rgba(93,169,233,0.22); }
-  .hero-single .wrap { grid-template-columns: 1fr; padding-bottom: 56px; }
-  .hero-single .lead { max-width: 58ch; }
+  @media (max-width: 880px) {
+    .hero-single .wrap { padding-top: 44px; padding-bottom: 28px; }
+    .hero-banner { padding-bottom: 48px; }
+  }
 </style>
 </head>
 <body>

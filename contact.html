@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Local Web Co</title>
+<meta name="description" content="Tell us about your business and what you'd like your website to do. We'll get back to you with next steps.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">LOCAL WEB CO <span>EST. LONDON</span></a>
+    <nav class="main-nav" id="main-nav">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="btn btn-primary">Get a quote</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow on-dark">Get in touch</p>
+    <h1>Tell us what you'd like.</h1>
+    <p>A few details about your business and what you're after — we'll get back to you with next steps.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="contact-layout">
+      <div class="contact-info-card">
+        <h3>Local Web Co</h3>
+        <p>Websites for local UK trades and small businesses — built properly, looked after monthly.</p>
+
+        <div class="contact-detail">
+          <span class="k">Email</span>
+          <span class="v"><a href="mailto:hello@local-web-co.com">hello@local-web-co.com</a></span>
+        </div>
+        <div class="contact-detail">
+          <span class="k">Based in</span>
+          <span class="v">London, United Kingdom</span>
+        </div>
+        <div class="contact-detail">
+          <span class="k">Response time</span>
+          <span class="v">Usually within one working day</span>
+        </div>
+      </div>
+
+      <div class="form-card">
+        <form id="contact-form" novalidate>
+          <div class="field">
+            <label for="firstName">First name</label>
+            <input type="text" id="firstName" name="firstName" required autocomplete="given-name">
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required autocomplete="email">
+          </div>
+          <div class="field">
+            <label for="contactDetails">Contact details (phone, if you'd prefer a call)</label>
+            <input type="tel" id="contactDetails" name="contactDetails" autocomplete="tel">
+          </div>
+          <div class="field">
+            <label for="message">Tell us what you'd like</label>
+            <textarea id="message" name="message" required placeholder="What does your business do, and what would you like your website to do for you?"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">Send message</button>
+          <p id="form-status" class="form-status" role="status"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a href="index.html" class="logo">LOCAL WEB CO</a>
+        <p style="margin-top:10px; max-width:32ch;">Websites for local UK trades and small businesses.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Site</h5>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <a href="mailto:hello@local-web-co.com">hello@local-web-co.com</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Local Web Co.</span>
+      <span>London, UK</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
